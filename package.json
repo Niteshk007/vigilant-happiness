@@ -1,0 +1,24 @@
+{
+  "name": "vigilant-happiness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niteshk007/vigilant-happiness.git"
+  },
+  "keywords": [
+    "image",
+    "imageGrid",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niteshk007/vigilant-happiness/issues"
+  },
+  "homepage": "https://github.com/Niteshk007/vigilant-happiness#readme"
+}
