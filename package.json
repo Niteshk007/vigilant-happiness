@@ -1,6 +1,6 @@
 {
   "name": "vigilant-happiness",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Publish sample package to npm",
   "main": "index.js",
   "scripts": {
