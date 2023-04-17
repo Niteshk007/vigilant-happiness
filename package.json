@@ -1,24 +1,48 @@
 {
   "name": "vigilant-happiness",
   "version": "1.0.0",
-  "description": "",
+  "description": "Publish sample package to npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Niteshk007/vigilant-happiness.git"
   },
   "keywords": [
-    "image",
-    "imageGrid",
-    "test"
+    "image-gridView",
+    "Images",
+    "Multiple-Image-view"
   ],
-  "author": "",
+  "author": "pentair",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Niteshk007/vigilant-happiness/issues"
   },
-  "homepage": "https://github.com/Niteshk007/vigilant-happiness#readme"
+  "homepage": "https://github.com/Niteshk007/vigilant-happiness#readme",
+  "devDependencies": {
+    "@testing-library/react-native": "^12.0.1",
+    "jest": "26.6.3",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "verbose": true,
+    "coverageDirectory": "./coverage/",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/img.js",
+      "!example/*.js"
+    ],
+    "collectCoverage": false,
+    "globals": {
+      "__DEV__": true
+    }
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.67.3"
+  }
 }
