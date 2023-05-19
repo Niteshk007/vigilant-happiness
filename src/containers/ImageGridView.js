@@ -34,7 +34,7 @@ const renderItem = ({ item, index }) => {
     return (
         <ImageComponent
             src={item?.src}
-            imageStyle={{height:200,width:"100%"}}
+            imageStyle={{height:100,width:"100%"}}
         />
     )
 }
